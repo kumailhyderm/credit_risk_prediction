@@ -6,7 +6,7 @@ A classification project built during my Data Science & Analytics Internship at 
 
 ## Dataset
 
-**Loan Prediction Dataset** — available on [Kaggle](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
+**Loan Prediction Dataset** available on [Kaggle](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
 
 | Column | Description |
 |--------|-------------|
