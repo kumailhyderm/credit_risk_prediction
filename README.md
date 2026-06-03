@@ -68,7 +68,7 @@ The model correctly predicted loan status 69% of the time on unseen data. Credit
 
 - Applicants with good credit history (1) had a much higher approval rate than those with bad credit (0)
 - Income alone is not a strong predictor as high earners were still rejected in many cases
-- The dataset is imbalanced — more approvals than rejections, which affects model performance
+- The dataset is imbalanced as more approvals than rejections, which affects model performance
 
 ---
 
