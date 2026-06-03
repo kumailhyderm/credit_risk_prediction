@@ -21,7 +21,7 @@ A classification project built during my Data Science & Analytics Internship at 
 | Loan_Amount_Term | Term of loan in months |
 | Credit_History | 1 = Good, 0 = Bad |
 | Property_Area | Urban / Semiurban / Rural |
-| **Loan_Status** | **Target — Y = Approved, N = Rejected** |
+| **Loan_Status** | **Target - Y = Approved, N = Rejected** |
 
 614 rows. Missing values present in several columns.
 
@@ -67,7 +67,7 @@ The model correctly predicted loan status 69% of the time on unseen data. Credit
 ## Key Findings
 
 - Applicants with good credit history (1) had a much higher approval rate than those with bad credit (0)
-- Income alone is not a strong predictor — high earners were still rejected in many cases
+- Income alone is not a strong predictor as high earners were still rejected in many cases
 - The dataset is imbalanced — more approvals than rejections, which affects model performance
 
 ---
