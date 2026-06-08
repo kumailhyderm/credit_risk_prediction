@@ -29,16 +29,16 @@ A classification project built during my Data Science & Analytics Internship at 
 
 ## What I Did
 
-1. **Loaded and inspected the dataset**  Checked shape, column types, and first few rows
-2. **Identified missing values**  Credit_History had 50 missing, Self_Employed had 32
+1. **Loaded and inspected the dataset** Checked shape, column types, and first few rows
+2. **Identified missing values** Credit_History had 50 missing, Self_Employed had 32
 3. **Fixed missing values** Median for numeric columns, mode for categorical columns
 4. **Visualized key patterns:**
    - Count plot - overall loan approval vs rejection distribution
    - Count plot - credit history vs loan status (good credit = much higher approval rate)
    - Box plot - applicant income vs loan status
-5. **Encoded categorical columns** using LabelEncoder, dropped Loan_ID
-6. **Trained a Decision Tree Classifier** - 80/20 train/test split
-7. **Evaluated** using accuracy score and confusion matrix
+5. Encoded categorical columns using LabelEncoder, dropped Loan_ID
+6. Trained a Decision Tree Classifier - 80/20 train/test split
+7. Evaluated using accuracy score and confusion matrix
 
 ---
 
@@ -67,8 +67,8 @@ The model correctly predicted loan status 69% of the time on unseen data. Credit
 ## Key Findings
 
 - Applicants with good credit history (1) had a much higher approval rate than those with bad credit (0)
-- Income alone is not a strong predictor as high earners were still rejected in many cases
-- The dataset is imbalanced as more approvals than rejections, which affects model performance
+- Income alone is not a strong predictor, as high earners were still rejected in many cases
+- The dataset is imbalanced, with more approvals than rejections, which affects model performance
 
 ---
 
@@ -92,5 +92,17 @@ pip install pandas matplotlib seaborn scikit-learn jupyter
 4. Open and run `crp.ipynb`
 
 ---
+
+## Author
+
+**Muhammad Kumail Haider**  
+[GitHub](https://github.com/kumailhyderm) · [LinkedIn](https://linkedin.com/in/kumailhyderm)
+
+---
+
+## License
+
+This project is open-source under the [MIT License](LICENSE).
+
 
 *This project was completed as part of the DevelopersHub Corporation Data Science & Analytics Internship.*
